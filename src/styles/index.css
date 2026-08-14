@@ -1,0 +1,40 @@
+/* Global reset and base styles */
+/* This file is imported in main.jsx — it applies to the entire app */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  /* Change the font-family to whatever you prefer */
+  /* Consider: line-height, background-color, text color */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Add your global typography, color variables, and utility classes below */
+
+/* CSS Custom Properties (variables) — define your color palette here */
+:root {
+  /* --color-primary: ; */
+  /* --color-secondary: ; */
+  /* --color-background: ; */
+  /* --color-text: ; */
+  /* --color-accent: ; */
+  /* --font-heading: ; */
+  /* --font-body: ; */
+}
