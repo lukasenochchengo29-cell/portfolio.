@@ -2,28 +2,40 @@
 /* Controls the overall structure and spacing of sections */
 
 .app {
-  /* Consider: max-width, margin auto for centering, min-height: 100vh */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  /* Add spacing between sections */
+  flex: 1;
 }
 
-/* Section shared styles — apply to all sections for consistent spacing */
+/* Section shared styles — consistent spacing across all sections */
 section {
-  /* padding: ; */
-  /* max-width: ; */
-  /* margin: 0 auto; */
+  padding: 5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Section titles — use this class on your h2 headings */
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: var(--color-secondary);
 }
 
 /* Animation placeholders — add entrance animations here later */
-/* Example: fade-in, slide-up on scroll */
 /*
 @keyframes fadeIn {
-
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes slideUp {
-
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 */
