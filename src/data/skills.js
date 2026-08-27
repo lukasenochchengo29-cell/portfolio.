@@ -1,23 +1,29 @@
-// Your skills data — organize by category if you want
-// Each skill can have a name and optionally an icon or proficiency level
-
 export const skills = [
   {
-    category: "Frontend",
+    category: 'Frontend',
     items: [
-      { name: "HTML", icon: "" },
-      { name: "CSS", icon: "" },
-      { name: "JavaScript", icon: "" },
-      { name: "React", icon: "" },
+      { name: 'React', icon: 'react' },
+      { name: 'JavaScript', icon: 'javascript' },
+      { name: 'HTML', icon: 'html' },
+      { name: 'CSS', icon: 'css' },
     ],
   },
   {
-    category: "Tools",
+    category: 'Programming',
     items: [
-      { name: "Git", icon: "" },
-      { name: "VS Code", icon: "" },
-      { name: "Vite", icon: "" },
+      { name: 'Java', icon: 'java' },
+      { name: 'Python', icon: 'python' },
+      { name: 'Rust', icon: 'rust' },
+      { name: 'SQL', icon: 'sql' },
     ],
   },
-  // Add more categories: Backend, Databases, etc.
+  {
+    category: 'Tools & Platforms',
+    items: [
+      { name: 'Git', icon: 'git' },
+      { name: 'GitHub', icon: 'github' },
+      { name: 'VS Code', icon: 'vscode' },
+      { name: 'Vite', icon: 'vite' },
+    ],
+  },
 ]

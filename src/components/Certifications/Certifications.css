@@ -1,6 +1,38 @@
-/* Certifications section styles */
-/* Consider: badge-style cards, grid layout, credential links */
+.cert-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 
-.certifications {
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
 
+.cert-card__date {
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cert-card h3 {
+  color: var(--color-secondary);
+}
+
+.cert-card a {
+  margin-top: auto;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
 }

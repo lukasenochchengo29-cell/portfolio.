@@ -1,6 +1,3 @@
-/* Global reset and base styles */
-/* This file is imported in main.jsx — it applies to the entire app */
-
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +12,16 @@ html {
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
-  background-color: var(--color-background);
+  background: linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
   color: var(--color-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -34,29 +36,46 @@ ul {
   list-style: none;
 }
 
-img {
+img,
+svg {
   max-width: 100%;
   display: block;
 }
 
-/* CSS Custom Properties — your color palette */
+button,
+input,
+textarea {
+  font: inherit;
+}
+
 :root {
   --color-primary: #2563eb;
-  --color-secondary: #1e293b;
+  --color-secondary: #0f172a;
   --color-background: #f8fafc;
+  --color-background-soft: #eef4ff;
   --color-text: #1e293b;
   --color-text-light: #64748b;
   --color-accent: #06b6d4;
   --color-white: #ffffff;
-  --color-border: #e2e8f0;
+  --color-border: #dfe7f4;
+  --color-card: rgba(255, 255, 255, 0.8);
 
-  --font-heading: 'Poppins', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 12px 30px rgba(37, 99, 235, 0.08);
+  --shadow-lg: 0 20px 45px rgba(15, 23, 42, 0.12);
 
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
-  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+  --radius: 18px;
+  --transition: 0.25s ease;
+}
 
-  --radius: 8px;
-  --transition: 0.3s ease;
+strong {
+  font-weight: 700;
+}
+
+p {
+  color: var(--color-text-light);
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.15);
 }
