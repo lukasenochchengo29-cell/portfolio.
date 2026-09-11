@@ -64,6 +64,18 @@ const iconMap = {
       <path d="M12 2.5 3.7 18.7h16.6L12 2.5Zm0 5.2 4.7 8.2H7.3L12 7.7Zm-6 10.5h12l-6 3.4-6-3.4Z" fill="currentColor" />
     </svg>
   ),
+  soroban: (
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 3.5 6.8v10.4L12 22l8.5-4.8V6.8L12 2Zm0 3 5.8 3.2L12 11.5 6.2 8.2 12 5Zm-5.5 6 4 2.3v5.2l-4-2.3V11Zm7 7.5v-5.2l4-2.3v5.2l-4 2.3Z" fill="currentColor" /></svg>
+  ),
+  stellar: (
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.2 7.1L21 12l-6.8 2.9L12 22l-2.2-7.1L3 12l6.8-2.9L12 2Z" fill="currentColor" /></svg>
+  ),
+  cpp: (
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 7.8 13.5l-2.6-1.5A6 6 0 1 1 12 6c2.1 0 4 1.1 5.1 3H14v2h6V5h-2v1.7A9 9 0 0 0 12 3Zm-1 6H9v2H7v2h2v2h2v-2h2v-2h-2V9Z" fill="currentColor" /></svg>
+  ),
+  aws: (
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8.2 12 4l8 4.2v7.6L12 20l-8-4.2V8.2Zm8-1.8L7 9l5 2.6L17 9l-5-2.6Zm-5 5v3l4 2.1v-3L7 11.4Zm6 5.1 4-2.1v-3l-4 2.1v3Z" fill="currentColor" /></svg>
+  ),
 }
 
 function SkillIcon({ name }) {

@@ -1,32 +1,47 @@
 export const projects = [
   {
     id: 1,
-    title: 'No-Loss Auction',
+    title: 'ShambaChain',
     description:
-      'A blockchain-focused web application exploring practical auction interactions and modern frontend design.',
-    technologies: ['React', 'JavaScript', 'CSS', 'Rust', 'Soroban'],
-    github: 'https://github.com/lukasenochchengo29-cell/no-loss-auction-frontend-done',
-    live: '',
-    image: '',
+      'A traceability platform that helps agricultural stakeholders follow produce from farm to market with transparent, tamper-resistant records.',
+    technologies: ['React', 'JavaScript', 'Rust', 'Soroban', 'Stellar'],
+    github: 'https://github.com/lukasenochchengo29-cell/SHAMBACHAIN',
+    live: 'https://shambachain-blond.vercel.app',
   },
   {
     id: 2,
-    title: 'Stellar Impact Bootcamp',
+    title: 'Project Nura Website',
     description:
-      'A project built around learning, experimentation, and practical exposure to blockchain concepts and application development.',
-    technologies: ['React', 'JavaScript', 'Stellar', 'Soroban', 'Web3'],
-    github: 'https://github.com/lukasenochchengo29-cell',
-    live: '',
-    image: '',
+      'A modern web experience for a mission-led project, translating its story and services into a focused, responsive interface.',
+    technologies: ['React', 'JavaScript', 'CSS', 'Vite'],
+    github: 'https://github.com/lukasenochchengo29-cell/project-nura',
+    live: 'https://project-nura-six.vercel.app/',
   },
   {
     id: 3,
-    title: 'Portfolio Website',
+    title: 'AWS Campus Club Website',
     description:
-      'A personal developer portfolio designed to present my projects, technical skills, and software development journey clearly and professionally.',
-    technologies: ['React', 'Vite', 'CSS', 'JavaScript'],
-    github: 'https://github.com/lukasenochchengo29-cell',
+      'A community platform for discovering AWS Campus Club activities, resources, and events for student builders.',
+    technologies: ['React', 'JavaScript', 'AWS', 'CloudFront'],
+    github: '',
+    live: 'https://d1pvlgv6lj9mva.cloudfront.net/',
+  },
+  {
+    id: 4,
+    title: 'Glow Archive',
+    description:
+      'A curated web platform that gives visual stories and references a calm, organized home with an editorial browsing experience.',
+    technologies: ['React', 'JavaScript', 'Vercel', 'CSS'],
+    github: '',
+    live: 'https://vercel.com/vinnoh-kimanis-projects/glow-archive',
+  },
+  {
+    id: 5,
+    title: 'Custom Music Player',
+    description:
+      'An interactive audio web app with a custom playback interface designed around clear controls, track discovery, and a focused listening flow.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Audio API'],
+    github: 'https://github.com/lukasenochchengo29-cell/MORINGA',
     live: '',
-    image: '',
   },
 ]

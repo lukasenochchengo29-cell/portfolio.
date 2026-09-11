@@ -10,9 +10,9 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  background: linear-gradient(180deg, #f8fafc 0%, #eef4ff 100%);
+  background: #0a0d12;
   color: var(--color-text);
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -49,20 +49,20 @@ textarea {
 }
 
 :root {
-  --color-primary: #2563eb;
-  --color-secondary: #0f172a;
-  --color-background: #f8fafc;
-  --color-background-soft: #eef4ff;
-  --color-text: #1e293b;
-  --color-text-light: #64748b;
-  --color-accent: #06b6d4;
-  --color-white: #ffffff;
-  --color-border: #dfe7f4;
-  --color-card: rgba(255, 255, 255, 0.8);
+  --color-primary: #b8f36b;
+  --color-secondary: #f5f7ef;
+  --color-background: #0a0d12;
+  --color-background-soft: #11161d;
+  --color-text: #e8ece4;
+  --color-text-light: #9ba49e;
+  --color-accent: #65d6c3;
+  --color-white: #f5f7ef;
+  --color-border: rgba(226, 236, 224, 0.14);
+  --color-card: rgba(18, 24, 30, 0.72);
 
   --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
-  --shadow-md: 0 12px 30px rgba(37, 99, 235, 0.08);
-  --shadow-lg: 0 20px 45px rgba(15, 23, 42, 0.12);
+  --shadow-md: 0 18px 40px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.38);
 
   --radius: 18px;
   --transition: 0.25s ease;
@@ -77,5 +77,5 @@ p {
 }
 
 ::selection {
-  background: rgba(37, 99, 235, 0.15);
+  background: rgba(184, 243, 107, 0.25);
 }

@@ -1,11 +1,9 @@
-.skills__grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
+.skills__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .skill-group {
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--color-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius);
+  border-radius: 5px;
   padding: 1.5rem;
   box-shadow: var(--shadow-sm);
 }
@@ -26,11 +24,20 @@
   align-items: center;
   gap: 0.6rem;
   padding: 0.7rem 0.9rem;
-  border-radius: 999px;
+  border-radius: 4px;
   border: 1px solid var(--color-border);
-  background: #f8fafc;
-  color: var(--color-secondary);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--color-text);
   font-weight: 600;
+  cursor: default;
+  transition: transform 220ms ease, border-color 220ms ease, background 220ms ease, color 220ms ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(184, 243, 107, 0.6);
+  background: rgba(184, 243, 107, 0.1);
+  color: var(--color-primary);
 }
 
 .skill__icon {
@@ -42,6 +49,11 @@
 .skill__icon svg {
   width: 100%;
   height: 100%;
+  transition: transform 220ms ease;
+}
+
+.skill-item:hover .skill__icon svg {
+  transform: rotate(-8deg) scale(1.16);
 }
 
 @media (max-width: 900px) {
