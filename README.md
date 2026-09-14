@@ -1,80 +1,127 @@
 # Portfolio
 
-A modern, professional developer portfolio built with React and Vite.
+A responsive personal portfolio website built with React and Vite. The site is structured as a single-page developer portfolio with sections for overview, skills, projects, experience, education, certifications, and contact information.
 
-## Technologies
+## Overview
+
+This project serves as a professional online portfolio for showcasing:
+
+- personal and professional background
+- technical skills and expertise
+- featured projects and work samples
+- education and certifications
+- work experience and achievements
+- contact details for networking or hiring opportunities
+
+## Tech Stack
 
 - React 19
+- Vite
 - JavaScript (ES6+)
-- HTML5 & CSS3
-- Vite (build tool)
-- Git / GitHub
+- HTML5
+- CSS3
+- npm
+
+## Features
+
+- modern single-page layout
+- responsive design for desktop and mobile
+- organized section-based component structure
+- reusable data-driven content in the `src/data` folder
+- clean styling separated by section
+- production build support via Vite
 
 ## Project Structure
 
-```
+```bash
 src/
-├── assets/images/       → Static images (profile photo, project screenshots)
-├── components/          → One folder per section, each with .jsx + .css
-│   ├── Navbar/
-│   ├── Hero/
+├── assets/
+│   └── images/
+│       └── previews/
+├── components/
 │   ├── About/
-│   ├── Skills/
-│   ├── Projects/
-│   ├── Education/
 │   ├── Certifications/
-│   ├── Experience/
 │   ├── Contact/
-│   └── Footer/
-├── data/                → JS files exporting arrays/objects for dynamic content
-├── pages/               → Full page components (if you add routing later)
-├── styles/              → Global and app-level stylesheets
-├── App.jsx              → Root component that assembles all sections
-└── main.jsx             → Entry point that renders App into the DOM
+│   ├── Education/
+│   ├── Experience/
+│   ├── Footer/
+│   ├── Hero/
+│   ├── Navbar/
+│   ├── Projects/
+│   └── Skills/
+├── data/
+│   ├── certifications.js
+│   ├── education.js
+│   ├── experience.js
+│   ├── projects.js
+│   └── skills.js
+├── styles/
+│   ├── App.css
+│   └── index.css
+├── App.jsx
+├── main.jsx
+└── ...
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v18+)
+- Node.js 18 or later
 - npm
 
-### Installation
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run Locally
+### Run locally
 
 ```bash
 npm run dev
 ```
 
-Open the URL shown in your terminal (usually http://localhost:5173).
+Then open the local URL shown in the terminal, usually:
 
-### Build for Production
+```bash
+http://localhost:5173
+```
+
+### Build for production
 
 ```bash
 npm run build
 ```
 
-### Preview Production Build
+### Preview production build
 
 ```bash
 npm run preview
 ```
 
-## Development Guide
+## Customization
 
-1. Start with the **Hero** section — get a landing section looking great.
-2. Move to **Navbar** — add navigation links that scroll to each section.
-3. Build out **About**, **Skills**, **Projects** one at a time.
-4. Fill in the data files in `src/data/` with your real information.
-5. Style each component using its dedicated CSS file.
-6. Add animations and responsive design as a final polish.
+To personalize the portfolio for your own profile, update the content in the files under `src/data/`:
+
+- `src/data/skills.js`
+- `src/data/projects.js`
+- `src/data/experience.js`
+- `src/data/education.js`
+- `src/data/certifications.js`
+
+You can also edit the individual component files in `src/components/` if you want to change the layout, text, or styles for each section.
+
+## Deployment
+
+This app can be deployed to services such as:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+Because it is a Vite app, the production build output is generated in the `dist/` folder.
 
 ## License
 
-This project is for personal use and portfolio purposes.
+This project is intended for personal portfolio use and can be adapted for your own website or portfolio branding.
