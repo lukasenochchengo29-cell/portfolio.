@@ -7,12 +7,15 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  scroll-padding-top: 5.5rem;
 }
 
 body {
-  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  background: #0a0d12;
+  background: var(--color-background);
   color: var(--color-text);
 }
 
@@ -22,10 +25,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  font-family: 'DM Serif Display', Georgia, serif;
   font-weight: 600;
   line-height: 1.2;
 }
+
+section[id] { scroll-margin-top: 5.5rem; }
 
 a {
   text-decoration: none;
@@ -49,23 +54,24 @@ textarea {
 }
 
 :root {
-  --color-primary: #b8f36b;
-  --color-secondary: #f5f7ef;
-  --color-background: #0a0d12;
-  --color-background-soft: #11161d;
-  --color-text: #e8ece4;
-  --color-text-light: #9ba49e;
-  --color-accent: #65d6c3;
-  --color-white: #f5f7ef;
-  --color-border: rgba(226, 236, 224, 0.14);
-  --color-card: rgba(18, 24, 30, 0.72);
+  color-scheme: dark;
+  --color-primary: #8fb8e8;
+  --color-secondary: #f4f6f8;
+  --color-background: #10161f;
+  --color-background-soft: #171f2a;
+  --color-text: #e8edf3;
+  --color-text-light: #b3bfcd;
+  --color-accent: #8fb8e8;
+  --color-white: #f4f6f8;
+  --color-border: rgba(211, 224, 240, 0.16);
+  --color-card: rgba(25, 35, 47, 0.86);
 
   --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
   --shadow-md: 0 18px 40px rgba(0, 0, 0, 0.2);
   --shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.38);
 
   --radius: 18px;
-  --transition: 0.25s ease;
+  --transition: 0.2s ease;
 }
 
 strong {
@@ -77,5 +83,20 @@ p {
 }
 
 ::selection {
-  background: rgba(184, 243, 107, 0.25);
+  background: rgba(143, 184, 232, 0.32);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

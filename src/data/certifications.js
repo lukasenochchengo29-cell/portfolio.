@@ -1,9 +1,9 @@
-import certificatePdf from '../assets/images/Lukas Enock Chengo certificate.pdf'
-import certificatePreview from '../assets/images/previews/Lukas Enock Chengo certificate.pdf.png'
-import giveImpactCertificate from '../assets/images/GIVE_Kenya_Certificate_Lukas_Enock_Chengo.png'
-import aiCertificate from '../assets/images/lukas-enock_certificate.pdf'
-import aiCertificatePreview from '../assets/images/previews/lukas-enock_certificate.pdf.png'
-import awsBadge from '../assets/images/aws-sbg-core-team-member-badge.png'
+import certificatePdf from '@/assets/images/Lukas Enock Chengo certificate.pdf'
+import certificatePreview from '@/assets/images/previews/Lukas Enock Chengo certificate.pdf.png'
+import giveImpactCertificate from '@/assets/images/GIVE_Kenya_Certificate_Lukas_Enock_Chengo.png'
+import aiCertificate from '@/assets/images/lukas-enock_certificate.pdf'
+import aiCertificatePreview from '@/assets/images/previews/lukas-enock_certificate.pdf.png'
+import awsBadge from '@/assets/images/aws-sbg-core-team-member-badge.png'
 
 export const certifications = [
   {

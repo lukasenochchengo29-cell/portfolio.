@@ -1,5 +1,5 @@
-import './Experience.css'
-import { experience } from '../../data/experience'
+import '@/components/Experience/Experience.css'
+import { experience } from '@/data/experience'
 
 function Experience() {
   return (

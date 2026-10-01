@@ -1,5 +1,5 @@
-import './Education.css'
-import { education } from '../../data/education'
+import '@/components/Education/Education.css'
+import { education } from '@/data/education'
 
 function Education() {
   return (

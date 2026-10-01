@@ -1,5 +1,5 @@
-import './Skills.css'
-import { skills } from '../../data/skills'
+import '@/components/Skills/Skills.css'
+import { skills } from '@/data/skills'
 
 const iconMap = {
   react: (

@@ -1,11 +1,11 @@
-import './About.css'
+import '@/components/About/About.css'
 
 function About() {
   return (
     <section id="about" className="about section">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">About</p>
+          <p className="eyebrow">Bio / About Me</p>
           <h2>Building practical solutions through continuous learning.</h2>
         </div>
 
@@ -31,10 +31,11 @@ function About() {
 
           <div className="about__panel">
             <div className="profile-card">
-              <div className="profile-card__avatar" aria-label="Profile initials">
-                LC
+              <div className="profile-card__portrait" role="img" aria-label="Portrait placeholder for Lukas Enoch Chengo">
+                <span>Portrait</span>
+                <strong>LC</strong>
               </div>
-              <h3>Developer profile</h3>
+              <h3>Lukas Enoch Chengo</h3>
               <ul>
                 <li>Focus on modern web development</li>
                 <li>Strong interest in AI and security</li>

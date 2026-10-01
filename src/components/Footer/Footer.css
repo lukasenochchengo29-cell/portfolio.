@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(110deg, #101c1c 0%, #0b1118 52%, #182116 100%);
+  background: linear-gradient(110deg, #182332 0%, #111923 52%, #1a2634 100%);
   border-top: 1px solid var(--color-border);
   color: var(--color-text);
   padding: 2rem 0 2.2rem;
@@ -15,7 +15,7 @@
   right: -7rem;
   bottom: -12rem;
   border-radius: 50%;
-  border: 1px solid rgba(184, 243, 107, 0.2);
+  border: 1px solid rgba(143, 184, 232, 0.22);
 }
 
 .footer__inner {

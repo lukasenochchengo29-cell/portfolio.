@@ -1,5 +1,5 @@
-import './Certifications.css'
-import { certifications } from '../../data/certifications'
+import '@/components/Certifications/Certifications.css'
+import { certifications } from '@/data/certifications'
 
 function Certifications() {
   return (

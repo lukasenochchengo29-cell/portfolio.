@@ -1,4 +1,4 @@
-import './Footer.css'
+import '@/components/Footer/Footer.css'
 
 const footerLinks = [
   { label: 'GitHub', href: 'https://github.com/lukasenochchengo29-cell' },

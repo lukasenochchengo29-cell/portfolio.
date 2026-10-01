@@ -1,5 +1,5 @@
-import './Hero.css'
-import cv from '../../assets/images/Lukas Enock CV.pdf'
+import '@/components/Hero/Hero.css'
+import cv from '@/assets/images/Lukas Enock CV.pdf'
 
 const highlights = [
   { label: 'Based in', value: 'Nairobi, Kenya' },
@@ -27,9 +27,6 @@ function Hero() {
             </a>
             <a href="https://github.com/lukasenochchengo29-cell" target="_blank" rel="noreferrer noopener" className="button button--secondary">
               GitHub
-            </a>
-            <a href="#contact" className="button button--ghost">
-              Get in Touch
             </a>
           </div>
 

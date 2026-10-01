@@ -1,4 +1,4 @@
-import './Contact.css'
+import '@/components/Contact/Contact.css'
 
 const contactLinks = [
   { label: 'Email', href: 'mailto:lukas.enoch.chengo29@gmail.com', value: 'lukas.enoch.chengo29@gmail.com', icon: 'mail' },
