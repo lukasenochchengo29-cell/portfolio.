@@ -6,8 +6,8 @@ function Experience() {
     <section id="experience" className="experience section">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">Experience</p>
-          <h2>My development journey.</h2>
+          <p className="eyebrow">Experience <span>— 04</span></p>
+          <h2>Learning by building with others.</h2>
         </div>
 
         <div className="timeline">

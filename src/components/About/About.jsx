@@ -4,13 +4,10 @@ function About() {
   return (
     <section id="about" className="about section">
       <div className="container">
-        <div className="section-header">
-          <p className="eyebrow">Bio / About Me</p>
-          <h2>Building practical solutions through continuous learning.</h2>
-        </div>
-
         <div className="about__grid">
           <div className="about__content">
+            <p className="eyebrow">A little about me <span>— 01</span></p>
+            <h2>Curiosity is the beginning of every good build.</h2>
             <p>
               I am Lukas Enoch Chengo, a software developer passionate about creating
               useful technology and continually improving my skills across software
@@ -21,28 +18,17 @@ function About() {
               Rust. I enjoy learning by building real projects, experimenting with new
               ideas, and turning concepts into functional applications.
             </p>
-            <p>
-              I am especially interested in software engineering, artificial
-              intelligence, cybersecurity, and blockchain technology. I believe the
-              best way to grow is by building, debugging, learning from mistakes, and
-              improving with each iteration.
-            </p>
+            <p>I’m especially drawn to software engineering, cybersecurity, and blockchain. I learn by making, listening, and refining the details until a solution feels clear and useful.</p>
+            <div className="about__signature"><span>Based in Nairobi</span><span>Building with intention</span></div>
           </div>
 
-          <div className="about__panel">
-            <div className="profile-card">
-              <div className="profile-card__portrait" role="img" aria-label="Portrait placeholder for Lukas Enoch Chengo">
-                <span>Portrait</span>
-                <strong>LC</strong>
-              </div>
-              <h3>Lukas Enoch Chengo</h3>
-              <ul>
-                <li>Focus on modern web development</li>
-                <li>Strong interest in AI and security</li>
-                <li>Driven by problem solving and practical impact</li>
-              </ul>
+          <figure className="about__portrait">
+            <div className="about__portrait-frame" role="img" aria-label="Portrait placeholder for Lukas Enoch Chengo">
+              <span>Portrait goes here</span>
+              <strong>LC</strong>
             </div>
-          </div>
+            <figcaption><span>Lukas Enoch Chengo</span><span>Engineer & lifelong learner</span></figcaption>
+          </figure>
         </div>
       </div>
     </section>

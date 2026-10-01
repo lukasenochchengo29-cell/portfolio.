@@ -19,8 +19,8 @@ function Contact() {
     <section id="contact" className="contact section">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">Contact</p>
-          <h2>Have a system to ship or a community to grow?</h2>
+          <p className="eyebrow">Start a conversation <span>— 07</span></p>
+          <h2>Have something meaningful to build?</h2>
         </div>
 
         <div className="contact__grid">

@@ -3,7 +3,6 @@ import '@/components/Navbar/Navbar.css'
 
 const navItems = [
   { label: 'About', href: '#about' },
-  { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
   { label: 'Contact', href: '#contact' },
@@ -24,11 +23,10 @@ function Navbar() {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" aria-label="Primary">
       <div className="container nav__inner">
         <a href="#hero" className="brand" aria-label="Lukas Enock Chengo home" onClick={closeMenu}>
-          <span className="brand__mark">LC</span>
-          <span className="brand__text">Lukas Enock Chengo</span>
+          <span className="brand__text">Lukas Enoch Chengo<span className="brand__period">.</span></span>
         </a>
 
         <div id="primary-navigation" className={`nav__links${menuOpen ? ' is-open' : ''}`} aria-label="Main navigation">

@@ -21,6 +21,7 @@ function BackToTop() {
     <button
       className={`back-to-top${visible ? ' is-visible' : ''}`}
       type="button"
+      title="Back to top"
       aria-label="Back to top"
       tabIndex={visible ? 0 : -1}
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
@@ -28,6 +29,7 @@ function BackToTop() {
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="m6 14 6-6 6 6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
+      <span>Back to top</span>
     </button>
   )
 }

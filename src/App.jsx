@@ -9,6 +9,7 @@ import Certifications from '@/components/Certifications/Certifications'
 import Contact from '@/components/Contact/Contact'
 import Footer from '@/components/Footer/Footer'
 import BackToTop from '@/components/BackToTop/BackToTop'
+import ScrollReveal from '@/components/ScrollReveal/ScrollReveal'
 import '@/styles/App.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       </main>
       <Footer />
       <BackToTop />
+      <ScrollReveal />
     </div>
   )
 }

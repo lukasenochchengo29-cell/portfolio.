@@ -6,8 +6,8 @@ function Education() {
     <section id="education" className="education section">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">Learning</p>
-          <h2>Focused growth and practical development.</h2>
+          <p className="eyebrow">Education <span>— 05</span></p>
+          <h2>Foundations for a lifelong practice.</h2>
         </div>
 
         <div className="info-grid">

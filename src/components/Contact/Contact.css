@@ -41,11 +41,10 @@
 .contact__form {
   display: grid;
   gap: 1rem;
-  background: var(--color-card);
-  border: 1px solid var(--color-border);
-  border-radius: 5px;
+  min-width: 0;
+  background: transparent;
+  border-top: 1px solid var(--color-border);
   padding: 1.5rem;
-  box-shadow: var(--shadow-sm);
 }
 
 .contact__form label {
@@ -59,16 +58,16 @@
 .contact__form textarea {
   width: 100%;
   padding: 0.8rem 0.9rem;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 1px solid var(--color-border);
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--color-background-soft);
   color: var(--color-text);
 }
 
 .contact__form input:focus,
 .contact__form textarea:focus {
-  outline: 2px solid rgba(143, 184, 232, 0.3);
-  border-color: rgba(143, 184, 232, 0.55);
+  outline: 2px solid rgba(217, 119, 6, 0.2);
+  border-color: var(--color-primary);
 }
 
 .form-note {
@@ -84,6 +83,8 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .contact__form { padding: 1.5rem 0; }
 
   .contact__list a {
     text-align: left;

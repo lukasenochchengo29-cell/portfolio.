@@ -6,15 +6,15 @@ function Certifications() {
     <section id="certifications" className="certifications section">
       <div className="container">
         <div className="section-header">
-          <p className="eyebrow">Certifications & Growth</p>
-          <h2>Proof of practice, curiosity, and community.</h2>
+          <p className="eyebrow">Certifications <span>— 06</span></p>
+          <h2>Learning, put into practice.</h2>
         </div>
 
         <div className="cert-grid">
           {certifications.map((item) => (
             <article key={item.id} className="cert-card">
               <div className="cert-card__preview">
-                <img src={item.preview} alt={`${item.name} preview`} />
+                <img src={item.preview} alt={`${item.name} preview`} loading="lazy" decoding="async" />
               </div>
               <span className="cert-card__date">{item.date}</span>
               <h3>{item.name}</h3>
