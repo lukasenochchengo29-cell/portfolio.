@@ -39,9 +39,6 @@ function Navbar() {
           ))}
         </div>
 
-        <a href="#contact" className="nav__cta" onClick={closeMenu}>
-          Contact Me
-        </a>
         <button
           className={`nav__toggle${menuOpen ? ' is-open' : ''}`}
           type="button"
